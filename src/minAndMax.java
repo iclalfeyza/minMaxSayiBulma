@@ -21,8 +21,7 @@ public class minAndMax {
                 add = numb.nextInt();
                 if (add < min) {
                     min = add;
-                }
-                if (add > max) {
+                } else if (add > max) {
                     max = add;
                 }
             }
